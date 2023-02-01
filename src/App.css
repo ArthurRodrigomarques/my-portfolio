@@ -1,0 +1,244 @@
+:root {
+    --color1:#0A0101;
+    --color2:#00000B;
+    --color3:#141433;
+    --color4:#1A1A57;
+    --color5:#0000A3;
+}
+body {
+    background-color: rgb(36, 34, 34);
+}
+html {
+    scroll-behavior: smooth;
+}
+                    /* NavBar */
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 8vh;
+    background-color:#141433c2;  
+    color: white;
+}
+.name-navbar {
+margin: 12px;
+}
+
+.menu-navbar ul{
+    list-style: none;
+}
+.menu-navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    transition: .6s;
+}
+.menu-navbar ul li:hover {
+    cursor: pointer;
+    color: rgb(93, 93, 223);
+}
+.menu {
+    display: none;
+}
+
+
+            /* Home */
+
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+.apresentation-home {
+    margin: 160px 0px 0px 0px;
+    height: 50vh;
+    width: 50%;
+    font-size: 20px;
+}
+.apresentation-home strong {
+    font-size: 50px;
+}
+.text {
+   color: #254bdd;
+}
+.me-home {
+    width: 400px;
+}
+.me-home img {
+    padding-top: 100px;
+}
+
+.links-portfolio {
+    margin-top: 50px;
+}
+.links-portfolio a {
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #254bdd;
+    margin: 5px;
+    padding: 15px 40px;
+}
+.links-portfolio a:hover {
+        box-shadow: 5px 5px 10px black;
+        transition: transform .5s, border 1s;
+}
+
+/* About-me  */
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40vw;
+    background-color: rgb(71, 69, 69);
+    justify-content: center;
+    align-items: center;
+}
+.about-me img {
+    border-bottom:5px solid #0000A3;
+    border-left:5px solid #0000A3;
+     transition: 1s;
+}
+.about-me img:hover {
+    border-bottom:5px solid red;
+    border-left: 5px solid red;
+   
+} 
+.about-me-text {
+    width: 60vw;
+}
+.about-me-text h1 {
+    margin: 0px 0px 15px 20px;
+}
+.about-me-text p {
+    margin-left: 20px;
+}
+        /* Skills */
+
+        .skill {
+            color: white;
+            padding: 50px 0 50px 0;
+            position: block;
+          height: 80vh;
+        }
+        .skill-bx {
+            background-color: #151515;
+            border-radius: 64px;
+            text-align: center;
+            padding: 60px 50px;
+            margin: -20px 40px 0px 40px;
+        }
+        .skill h5 {
+            font-size: 45px;
+            font-weight: 700;
+        }
+        .skill p {
+            color: #bbb;
+            font-size: 18px;
+            letter-spacing: 0.8px;
+            line-height: 1.5em;
+            margin: 14px 0 75px 0;
+        }
+        .skill-slider {
+            width: 80%;
+            margin: 0 auto;
+            position: relative;
+        }
+        .skill-slider .item img {
+            width: 50%;
+            margin: 0 auto 15px auto;
+        }
+        
+        .item {display: flex;
+            width: 200px;
+        }
+        #html{
+            color:#dd4b25;
+        }
+        #css {
+            color: #254bdd;
+        }
+        #js {
+            color: #eed604;
+        }
+        #react {
+           color: #5ed3f3;
+        }
+        #git {
+            color: #e84d31;
+        }
+            /* Projects principais */
+#projects {
+    width: 100%;
+}
+#projects h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.projetos {
+     width: 400px;
+}
+.all-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.all-projects img {
+    width: 400px;
+    margin-bottom: 15px;
+}
+.all-projects a {
+    display:inline-block;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(45deg, blue , white);
+    border-image-slice: 1;
+    border-radius: 2px;
+}
+.all-projects a:hover {
+    border-image: linear-gradient(45deg, white,blue );
+    border-image-slice: 1;
+    border-radius: 2px;
+}
+.imgs {
+    width: 200px;
+    height: 200px;
+}
+
+
+            /* Footer */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10vh;
+    background-color: #141433;
+}
+.contact {
+
+}
+.links {
+    margin-top: 20px;
+}
+.links a {
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #254bdd;
+    margin: 5px;
+    padding: 15px 40px;
+}
+.links a:hover {
+        box-shadow: 5px 5px 10px black;
+        transition: transform .5s, border 1s;
+}
